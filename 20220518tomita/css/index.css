@@ -4,7 +4,6 @@ img{
 }
 
 a{
-  color: black;
   text-decoration: none;
 }
 
@@ -67,6 +66,7 @@ body{
 }
 
 .firstview_content{
+  position: absolute;
   margin-top: 5vw;
   text-align: center;
   color: white;
@@ -250,19 +250,16 @@ body{
 
 .footer {
   text-decoration: none;
-  color:inherit;
   width: 100%;
   background-color: black;
   padding: 5vh 0;
   text-align: center; 
-  color: white;
 }
 
 .footer-inner{
   display: flex;
   justify-content: space-between;
   padding: 0 5vw;
-  color: white;
 }
 
 .copyright{
@@ -279,6 +276,6 @@ body{
   color: white;
 }
 
-.footer-nav-item:not(:last-child){
-  margin-right: 15vw;
+.footer-nav-list li:last-child {
+  margin-right: 0;
 }

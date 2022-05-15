@@ -59,9 +59,34 @@ body {
   margin-right: 0;
 }
 /*---------------------service--------------------- */
-.service__ttl {
+.common__ttl {
   position: relative;   
   background: url(../img/mv.png);
   height: 100vh;
+  color: white;
 }
+
+.service__item{
+  border-top: 1px solid black;
+  padding: 1vh auto;
+}
+
+.service__item:last-of-type{
+  border-bottom: 1px solid black;
+  
+}
+
+
+.service__item-img{
+  width: 30vw;
+}
+
+.service__item-ttl{
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+
+
+
 
