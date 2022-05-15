@@ -47,6 +47,7 @@ body {
 
 .header-nav {
   margin-right: 5vw;
+  color: black;
 }
 
 .header-nav-list li {
@@ -59,11 +60,19 @@ body {
   margin-right: 0;
 }
 /*---------------------service--------------------- */
-.common__ttl {
-  position: relative;   
-  background: url(../img/mv.png);
+.common__ttl {   
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
   height: 100vh;
   color: white;
+}
+
+
+
+.service__ttl{
+  position: absolute;
+  top: 40%;
+  left: 50%;
 }
 
 .service__item{
@@ -86,6 +95,26 @@ body {
   font-weight: bold;
 }
 
+/*---------------------contact--------------------- */
+#contact {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#contact.common__ttl {
+  margin-top: 5vh;
+}
+
+.contact__btn {
+  display: block;
+  margin: 10vh auto 0;
+  width: 30vw;
+  text-align: center;
+  padding: 5vh 0;
+  background: #cc1231;
+  color: white;
+  transition: 0.4s;
+}
 
 
 

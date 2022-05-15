@@ -5,6 +5,7 @@ img{
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 li{
@@ -46,6 +47,7 @@ body{
 
 .header-nav{
   margin-right: 5vw;
+  color: black;
 }
 
 .header-nav-list li{
@@ -59,18 +61,21 @@ body{
 }
 
 /*---------------------firstview--------------------- */
-.firstview{
-  position: relative;
-  background: url(../img/mv.png);
-  height: auto;
+.firstview__background{
+  position: relative;   
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.firstview_content{
+.firstview__content{
   position: absolute;
-  margin-top: 5vw;
+  top: 30%;
+  left: 50%;
   text-align: center;
   color: white;
 }
+
 
 .firstview_content-eyecatvh{
   font-size: 10vw;
