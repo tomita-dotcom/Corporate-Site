@@ -1,0 +1,118 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: black;
+  line-height: 1.7;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.common__ttl {
+  font-size: 12vh;
+  font-weight: bold;
+  position: relative;
+}
+
+/*---------------------header--------------------- */
+
+.header {
+  height: 10vh;
+  line-height: 10vh;
+}
+
+.header__logo {
+  width: 5vw;
+  margin-left: 12vw;
+}
+
+.header-nav {
+  margin-right: 5vw;
+  color: black;
+}
+
+.header-nav-list li {
+  margin-left: 2vw;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.header-nav-list li:last-child {
+  margin-right: 0;
+}
+
+/*---------------------news--------------------- */
+
+#news {
+  background: black;
+}
+
+#news .common__ttl {
+  color: white;
+  margin-top: 10vh;
+}
+
+#news .news__list-item {
+  color: black;
+  background-color: white;
+  margin-top: 3vh;
+}
+
+#news .news__list-item:last-of-type {
+  margin-bottom: 3vh;
+}
+
+.news__list-detail {
+  font-weight: bold;
+}
+
+.news__btn {
+  display: block;
+  margin: 10vh auto 0;
+  width: 30vw;
+  text-align: center;
+  padding: 5vh 0;
+  background: #cc1231;
+  color: white;
+  transition: 0.4s;
+}
+
+/*---------------------contact--------------------- */
+#contact {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#contact.common__ttl {
+  margin-top: 5vh;
+}
+
+.contact__btn {
+  display: block;
+  margin: 10vh auto 0;
+  width: 30vw;
+  text-align: center;
+  padding: 5vh 0;
+  background: #cc1231;
+  color: white;
+  transition: 0.4s;
+}
