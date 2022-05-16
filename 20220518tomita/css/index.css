@@ -5,7 +5,7 @@ img{
 
 a{
   text-decoration: none;
-  color: black;
+  
 }
 
 li{
@@ -38,6 +38,7 @@ body{
 .header{
   height: 10vh;
   line-height: 10vh;
+  color: black;
 }
 
 .header__logo{
