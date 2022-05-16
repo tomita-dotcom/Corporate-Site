@@ -1,0 +1,85 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: black;
+  line-height: 1.7;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.common__ttl {
+  font-size: 12vh;
+  font-weight: bold;
+  position: relative;
+}
+
+/*---------------------header--------------------- */
+
+.header {
+  height: 10vh;
+  line-height: 10vh;
+  color: black;
+}
+
+.header__logo {
+  width: 5vw;
+  margin-left: 12vw;
+}
+
+.header-nav {
+  margin-right: 5vw;
+}
+
+.header-nav-a {
+  color: black;
+}
+
+.header-nav-list li {
+  margin-left: 2vw;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.header-nav-list li:last-child {
+  margin-right: 0;
+}
+
+/*---------------------blog--------------------- */
+.common__ttl {
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  height: 50%;
+  color: white;
+}
+
+#blog .container {
+  margin-top: 5vh;
+}
+
+
+.blog-wrap__item {
+  width: 30%;
+  position: relative;
+  display: block;
+  margin: 1vw 1vw;
+}

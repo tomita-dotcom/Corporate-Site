@@ -8,7 +8,7 @@ a{
   
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -48,6 +48,10 @@ body{
 
 .header-nav{
   margin-right: 5vw;
+  color: black;
+}
+
+.header-nav-a{
   color: black;
 }
 
@@ -277,8 +281,21 @@ body{
   display: flex;
   width: 100%;
   justify-content: center;
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-bottom: 10vh;
+  color: white;
+  
+}
+
+.footer-nav-item{
+  font-size: 2.5vh;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  margin: auto 1vw;
+  padding: auto 0.5vw;
+}
+
+.footer-nav-a{
   color: white;
 }
 
