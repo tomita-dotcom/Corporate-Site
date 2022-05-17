@@ -1,0 +1,117 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: black;
+  line-height: 1.7;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.common__ttl {
+  font-size: 12vh;
+  font-weight: bold;
+  position: relative;
+}
+
+/*---------------------header--------------------- */
+
+.header {
+  height: 10vh;
+  line-height: 10vh;
+}
+
+.header__logo {
+  width: 5vw;
+  margin-left: 12vw;
+}
+
+.header-nav {
+  margin-right: 5vw;
+  color: black;
+}
+
+.header-nav-list li {
+  margin-left: 2vw;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.header-nav-list li:last-child {
+  margin-right: 0;
+}
+
+/*---------------------company--------------------- */
+.common__ttl {
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+
+
+.recruit__ttl {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+#recruit.container{
+  max-width: 800px;
+}
+
+.recruit-table {
+  width: 100%;
+
+}
+
+tr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2px auto;
+}
+
+.company-table__th {
+  padding: auto 2vw;
+}
+
+/*---------------------contact--------------------- */
+#contact {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#contact.common__ttl {
+  margin-top: 5vh;
+}
+
+.contact__btn {
+  display: block;
+  margin: 10vh auto 0;
+  width: 30vw;
+  text-align: center;
+  padding: 5vh 0;
+  background: #cc1231;
+  color: white;
+  transition: 0.4s;
+}

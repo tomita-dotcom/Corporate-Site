@@ -82,4 +82,31 @@ body {
   position: relative;
   display: block;
   margin: 1vw 1vw;
+  color: black;
+}
+
+.blog-wrap{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/*---------------------contact--------------------- */
+#contact {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+#contact.common__ttl {
+  margin-top: 5vh;
+}
+
+.contact__btn {
+  display: block;
+  margin: 10vh auto 0;
+  width: 30vw;
+  text-align: center;
+  padding: 5vh 0;
+  background: #cc1231;
+  color: white;
+  transition: 0.4s;
 }
