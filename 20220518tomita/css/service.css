@@ -19,6 +19,9 @@ body {
 
 .flex__item {
   display: flex;
+}
+
+.flex__space{
   justify-content: space-between;
 }
 
