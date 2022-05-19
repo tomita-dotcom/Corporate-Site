@@ -197,6 +197,15 @@ body {
 .company-table__th {
   padding: auto 2vw;
   background-color: whitesmoke;
+  border-right: 1px solid black;
+}
+
+tr{
+    border-top: 1px solid black;
+}
+
+td{
+  padding: 10px;
 }
 
 .carrier{
