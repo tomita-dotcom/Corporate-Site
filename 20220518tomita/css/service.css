@@ -80,7 +80,7 @@ body {
 
 .nav {
   position: absolute;
-  height: 600px;
+  height: 100vh;
   width: 100%;
   left: -100%;
   background: #eee;
@@ -128,7 +128,7 @@ body {
 }
 
 .menu__line--middle {
-  top: 14px;
+  top: 19px;
 }
 
 .menu__line--bottom {
